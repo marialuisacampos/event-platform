@@ -5,7 +5,7 @@ import Lesson from './Lesson'
 const Sidebar = () => {
 
   return (
-    <aside className='w-[348px] bg-gray-100 p-6 border-l border-gray-600'>
+    <aside className='sm:w-[348px] bg-gray-100 p-6 border-l border-gray-600'>
       <span className='font-bold text-2xl pb-6 mb-6 border-b border-pink-100 block text-blue-100'>
         Plano de treinos
       </span>

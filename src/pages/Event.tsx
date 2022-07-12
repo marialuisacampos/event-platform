@@ -7,7 +7,7 @@ const Event = () => {
   return (
     <div className='flex flex-col min-h-screen'>
       <Header />
-      <main className='flex flex-1'>
+      <main className='sm:flex sm:flex-1'>
         <Video />
         <Sidebar />
       </main>

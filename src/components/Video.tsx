@@ -18,7 +18,7 @@ export function Video() {
       </div>
 
       <div className="p-8 max-w-[1100px] mx-auto bg-gray-200">
-        <div className="flex items-start gap-16">
+        <div className="md:flex md:items-start gap-16">
           <div className="flex-1">
             <h1 className="text-2xl font-bold text-blue-100">
               Titulo do vídeo
@@ -28,8 +28,8 @@ export function Video() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-4">
-            <a href="" className="p-4 text-sm bg-pink-100 text-white flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
+          <div className="mt-4">
+            <a href="" className="p-4 text-sm bg-pink-100 text-white flex items-center rounded font-bold uppercase gap-2 justify-center transition-colors">
               <CheckCircle size={24} />
               Marcar como concluida
             </a>
